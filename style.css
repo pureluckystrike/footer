@@ -1,0 +1,153 @@
+footer{
+	background-color: #222328;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0px;
+}
+
+footer li{
+	display: inline;
+}
+
+
+footer a:link {
+    text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: none;
+}
+
+footer a:visited {
+    text-decoration: none;
+
+}
+
+.first-half a{
+	color: white;
+	font-size: 12px;
+	font-family: "Montserrat"
+}
+
+.footnav{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+footer .fa{
+	font-size: 20px;
+}
+
+.fa-facebook{
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+
+
+.first-half{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #2d2e33;
+}
+
+.second-half{
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+.second-half p{
+	color: #7f7f81;
+	font-family: 'Crimson Text', serif;
+	font-size: 16px;
+}
+
+
+.second-half a{
+	color: #7f7f81;
+	font-size: 12px;
+	font-family: "Montserrat";
+	font-weight: bold;
+
+}
+
+
+footer table{
+	float: right;
+}
+
+.footer-logo{
+	float: left;
+}
+
+
+.second-half ul{
+	float: right;
+	padding-top: 10px;
+}
+
+.middle-padding{
+	padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 1020px) {
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+.footer-logo{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer table{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.footer-navigation {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.second-half ul{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.second-half p {
+	text-align: center;
+}
+
+}
+
+
+
+/**ASTA DE 455 AM PUS-O EU DUPA CUM MI S-O PARUT CA DA BINE, NU E DE LA BOOTSTRAP**/
+
+@media only screen and (max-width:455px){
+
+ footer li{
+ 	display: block;
+ }
+
+.middle-padding{
+	padding: 0px;
+}
+
+}
+
